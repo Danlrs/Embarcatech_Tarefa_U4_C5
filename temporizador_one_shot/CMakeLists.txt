@@ -59,4 +59,6 @@ target_link_libraries(temporizador_one_shot
         )
 
 pico_add_extra_outputs(temporizador_one_shot)
+pico_enable_stdio_usb(temporizador_one_shot 1)
+pico_enable_stdio_uart(temporizador_one_shot 0)
 
